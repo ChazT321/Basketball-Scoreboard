@@ -1,0 +1,113 @@
+body {
+  display: block;
+  background-color: #9aabd8;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 575px;
+  height: 385px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: inherit;
+  background: #1b244a;
+}
+
+#home-score {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 21px;
+  margin-top: 68px;
+}
+
+#guest-score {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 21px;
+  margin-top: 68px;
+}
+
+#home-box {
+  position: inherit;
+  width: 155px;
+  height: 120px;
+  top: 100px;
+  background: #080001;
+  border-radius: 5px;
+  font-size: 90px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#guest-box {
+  position: inherit;
+  width: 155px;
+  height: 120px;
+  top: 100px;
+  background: #080001;
+  border-radius: 5px;
+  font-size: 90px;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 21px;
+}
+
+button {
+  box-shadow: #758df7;
+  border-color: #9aabd8;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #9aabd8;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+#home-btns {
+  text-align: center;
+  margin-left: -281;
+  margin-top: 26;
+  margin-right: 290px;
+  margin-bottom: auto;
+  flex-direction: row;
+}
+
+#guest-btns {
+  text-align: center;
+  margin-top: -45;
+  margin-left: 8px;
+  margin-bottom: auto;
+  flex-direction: row;
+}
